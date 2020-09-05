@@ -1,6 +1,34 @@
-## Introduction
+## Problem Statement
 
-The following text judges the submission based on their
+The currently existing UI looks like below.
+
+![current Homepage](https://github.com/adhi729/test-app/blob/master/src/images/Current%20Homepage.png)
+
+This react application should be upgraded into a multistep form submit.
+
+The userflow of the application can be seen [here](https://xd.adobe.com/view/95b0322f-6582-468b-aebe-4522c550fa37-c0e3/).
+<br />
+
+Or following images can be used for a quick reference.
+
+![new Homepage](https://github.com/adhi729/test-app/blob/master/src/images/New%20Homepage.png)
+![new Homepage Dropdown](https://github.com/adhi729/test-app/blob/master/src/images/New%20Homepage%20Dropdown.png)
+
+Upon clicking Paediatrician, the following form fields to be rendered.
+
+![new Paediatrician Page](https://github.com/adhi729/test-app/blob/master/src/images/New%20Paediatrician%20Page.png)
+
+And upon clicking Physician,
+
+![new Physician Page](https://github.com/adhi729/test-app/blob/master/src/images/New%20Physician%20Page.png)
+
+which results in  the final Result page render as,
+
+![new Paediatrician  Result](https://github.com/adhi729/test-app/blob/master/src/images/New%20Paediatrician%20Result.png)
+![new Physician  Result](https://github.com/adhi729/test-app/blob/master/src/images/New%20Physician%20Result.png)
+
+<br />
+The following text judges the submission based on their ability to
 + adw
 + awdwd
 + adwdwawdd
@@ -11,13 +39,11 @@ The following text judges the submission based on their
 
 ## Task 1: Update Patient Registration Form
 
-The currently existing UI looks like below.
-
-![alt text](https://github.com/adhi729/test-app/blob/master/src/images/Current%20Homepage.png)
+All the necessary data to start with this project is already present. Please have a look at current implementation of the form.
 
 ## Task 2: Multistep Form Methods
 
-Figure out how you communicate with components
+Figure out how you communicate with components.
 
 ## Task 3: Input Component
 
