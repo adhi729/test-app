@@ -1,5 +1,7 @@
 # Prescribe Interview Assignment
 
+## Introduction
+
 This assignment is meant to assess the basic concepts of React like development of reusable components components and implementing them following well-known React.js workflows (such as Flux or Redux) and optimizing components for maximum performance across a vast array of web-capable devices and browsers.
 
 You'll be given an existing react application. 
@@ -25,7 +27,7 @@ Have a look at `/components/Pad.tsx: 15L`. This will be, most of what you'll be 
 ## Problem Statement
 
 The created React application collects data for patient registration. The `starter code` contains the implementation of a similar functionality but a basic version.
-The problem statement of this assignment is to build on this `starter code`, into a **multistep form submit**. This involves submitting data to an external API, wait for a callback,and save data from response into the browser.
+The problem statement of this assignment is to build on the `starter code`, into a **multistep form submit**. This also involves submitting data to an external API, wait for a callback,and save data from response into the browser.
 
 `From` The currently existing UI ( `starter code` ) looks like below.
 
@@ -50,7 +52,7 @@ The following is a brief task summary.
 
 #### Task 1: Update Patient Registration Form Component `<Pad />`
 
-All the necessary data to get started with this project already exists. Please have a look at current implementation of the  Registration form.
+All the necessary data to get started with this assignment already exists. Please have a look at current implementation of the Registration form.
 
 Running `npm start` should fire up `localhost:3000` with the following page.
 
@@ -61,7 +63,7 @@ Place your code in ` /components/Pad.tsx:48L`
 
 #### Task 2: Input Component `<InputFieldComponent />`
 
-Construct a Common theme, functional components for all inputs in `/components/`
+Construct a common functional component for all inputs in `/components/`
 
 ![new Homepage](https://github.com/adhi729/test-app/blob/master/src/images/New%20Homepage.png)
 
@@ -131,7 +133,7 @@ Note: submit JSON have different compositions
 ![new Physician  Result](https://github.com/adhi729/test-app/blob/master/src/images/New%20Physician%20Result.png)
 
 
-
+The end.
 
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
