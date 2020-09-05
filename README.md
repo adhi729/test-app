@@ -4,15 +4,8 @@ This assignment is meant to assess the basic concepts of React like development 
 
 You'll be given an existing react application. 
 The Assignment reqires you to understand the code and Fill in the blanks.
-Have a look at `/components/Pad.tsx: 15L`
+Have a look at `/components/Pad.tsx: 15L`. This will be, most of what you'll be doing.
 
-    validateForm = (event: any) => {
-        // validate your form here
-        
-
-
-        return true
-    }
     submitForm = (event: any) => {
         if(this.validateForm(event)){
             alert("Mistakes were made!")
@@ -32,9 +25,8 @@ Have a look at `/components/Pad.tsx: 15L`
 
 ## Problem Statement
 
-
-The application  collects data for patient registration. The start code contains the implementation of a similar function but on a basic version.
-The problem statement of the assignment is to build this into a **multistep form submit**. This involves submitting data to an external API and wait for a callback, save data from response in the browser.
+The application  collects data for patient registration. The `starter code` contains the implementation of a similar function but on a basic version.
+The problem statement of the assignment is to build this into a **multistep form submit**. This involves submitting data to an external API, wait for a callback,and save data from response into the browser.
 
 `From` The currently existing UI ( `starter code` ) looks like below.
 
@@ -45,19 +37,19 @@ The problem statement of the assignment is to build this into a **multistep form
 ![New Homepage](https://github.com/adhi729/test-app/blob/master/src/images/New%20Homepage.png)
 
 The following Assignment judges the submission based on their ability to
-+ [x] Handle form data 
-+ [x] Implement re-usable components
-+ [x] Manage states and props of components
-+ [x] Fidelity of the developed application
-+ [x] Follow coding conventions
++ [ ] Handle form data 
++ [ ] Implement re-usable components
++ [ ] Manage states and props of components
++ [ ] Fidelity of the developed application to the design.
++ [ ] Follow coding conventions
 
-## Task Breakup
+### Task Breakup
 
 **The userflow of the application can be seen [here](https://xd.adobe.com/view/95b0322f-6582-468b-aebe-4522c550fa37-c0e3/).**
 
 The following is a brief task summary.
 
-### Task 1: Update Patient Registration Form Component `<Pad />`
+#### Task 1: Update Patient Registration Form Component `<Pad />`
 
 All the necessary data to get started with this project already exists. Please have a look at current implementation of the  Registration form.
 
@@ -68,7 +60,7 @@ Running `npm start` should fire up `localhost:3000` with the following page.
 
 Place your code in ` /components/Pad.tsx:48L` 
 
-### Task 2: Input Component `<InputFieldComponent />`
+#### Task 2: Input Component `<InputFieldComponent />`
 
 Construct a Common theme, functional components for all inputs in `/components/`
 
@@ -79,7 +71,7 @@ And Corresponding Responsive layout.
 ![New Mobile Homepage](https://github.com/adhi729/test-app/blob/master/src/images/New%20Mobile%20Homepage.png)
 
 
-### Task 3: Multistep Form Methods
+#### Task 3: Multistep Form Methods
 
 Figure out how you communicate with components.
 + Input fields must be able send data to its parent.
@@ -100,9 +92,9 @@ And upon clicking `Physician`,
 
 ![new Physician Page](https://github.com/adhi729/test-app/blob/master/src/images/New%20Physician%20Page.png)
 
-### Task 4: Form handling
+#### Task 4: Form handling
 
-#### Form Validation and submit JSON
+##### Form Validation and submit JSON
 
 Required input fields and input validation.
 
