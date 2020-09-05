@@ -9,9 +9,25 @@ This react application should be upgraded into a multistep form submit.
 The userflow of the application can be seen [here](https://xd.adobe.com/view/95b0322f-6582-468b-aebe-4522c550fa37-c0e3/).
 <br />
 
-Or following images can be used for a quick reference.
+Or following this guide for a quick reference.
+
+## Task 1: Update Patient Registration Form Component `<Pad>`
+
+All the necessary data to start with this project is already present. Please have a look at current implementation of the form.
 
 ![new Homepage](https://github.com/adhi729/test-app/blob/master/src/images/New%20Homepage.png)
+
+
+## Task 2: Input Component
+
+Use of common theme functional components for input. 
+
+
+
+## Task 3: Multistep Form Methods
+
+Figure out how you communicate with components.
+
 ![new Homepage Dropdown](https://github.com/adhi729/test-app/blob/master/src/images/New%20Homepage%20Dropdown.png)
 
 Upon clicking Paediatrician, the following form fields to be rendered.
@@ -23,31 +39,6 @@ And upon clicking Physician,
 ![new Physician Page](https://github.com/adhi729/test-app/blob/master/src/images/New%20Physician%20Page.png)
 
 which results in  the final Result page render as,
-
-![new Paediatrician  Result](https://github.com/adhi729/test-app/blob/master/src/images/New%20Paediatrician%20Result.png)
-![new Physician  Result](https://github.com/adhi729/test-app/blob/master/src/images/New%20Physician%20Result.png)
-
-<br />
-The following text judges the submission based on their ability to
-+ adw
-+ awdwd
-+ adwdwawdd
-+ adwdadw
-+ awdadw
-
-<br />
-
-## Task 1: Update Patient Registration Form
-
-All the necessary data to start with this project is already present. Please have a look at current implementation of the form.
-
-## Task 2: Multistep Form Methods
-
-Figure out how you communicate with components.
-
-## Task 3: Input Component
-
-Use of common theme for input components either by common components  
 
 ## Task 4: Form handling
 
@@ -62,14 +53,31 @@ Use of common theme for input components either by common components
         role: number
     }
 
+    
+![new Paediatrician  Result](https://github.com/adhi729/test-app/blob/master/src/images/New%20Paediatrician%20Result.png)
+
     interface PhysicianRequestJSON 
-    {
-        consultancy: number,
-        patientName: string,
-        age: number,
-        parentName: string,
-        role: number
-    }
+        {
+            consultancy: number,
+            patientName: string,
+            age: number,
+            parentName: string,
+            role: number
+        }
+        
+![new Physician  Result](https://github.com/adhi729/test-app/blob/master/src/images/New%20Physician%20Result.png)
+
+<br />
+The following text judges the submission based on their ability to
++ adw
++ awdwd
++ adwdwawdd
++ adwdadw
++ awdadw
+
+<br />
+
+
 
 
 
