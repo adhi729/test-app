@@ -1,4 +1,4 @@
-##Introduction
+## Introduction
 
 The following text judges the submission based on their
 + adw
@@ -9,9 +9,22 @@ The following text judges the submission based on their
 
 <br />
 
-##Task 4:
+## Task 1: Update Patient Registration Form
 
-###Form Submit
+The currently existing UI looks like below.
+![alt text](/src/images/R logo.png)
+
+## Task 2: Multistep Form Methods
+
+Figure out how you communicate with components
+
+## Task 3: Input Component
+
+Use of common theme for input components either by common components  
+
+## Task 4: Form handling
+
+### Form Validation and submit JSON
 
     interface PaediatricianRequestJSON 
     {
