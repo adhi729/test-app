@@ -1,5 +1,6 @@
 ## Problem Statement
 
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
 The currently existing UI looks like below.
 
 
@@ -8,7 +9,7 @@ The userflow of the application can be seen [here](https://xd.adobe.com/view/95b
 <br />
 
 
-### Task 1: Update Patient Registration Form Component `<Pad>`
+### Task 1: Update Patient Registration Form Component `<Pad />`
 
 All the necessary data to get started with this project already exists. Please have a look at current implementation of the  Registration form.
 
@@ -17,7 +18,7 @@ Running `npm start` should start `localhost:3000` with the following page.
 
 ![current Homepage](https://github.com/adhi729/test-app/blob/master/src/images/Current%20Homepage.png)
 
-### Task 2: Input Component
+### Task 2: Input Component `<InputFieldComponent />`
 
 Use of common theme functional components for input. 
 
