@@ -29,7 +29,7 @@ The following is a brief task summary.
 
 All the necessary data to get started with this project already exists. Please have a look at current implementation of the  Registration form.
 
-Running `npm start` should start `localhost:3000` with the following page.
+Running `npm start` should fire up `localhost:3000` with the following page.
 
 
 ![current Homepage](https://github.com/adhi729/test-app/blob/master/src/images/Current%20Homepage.png)
