@@ -1,16 +1,17 @@
-## Problem Statement
+# Problem Statement
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
 The currently existing UI looks like below.
+The application right now collects data patient registration. This needs to be upgraded to collect data across different services.
 
 
-This react application should be upgraded into a multistep form submit.
-The userflow of the application can be seen [here](https://xd.adobe.com/view/95b0322f-6582-468b-aebe-4522c550fa37-c0e3/).
-
-![New Mobile Homepage](https://github.com/adhi729/test-app/blob/master/src/images/New%20Mobile%20Homepage.png)
 ![New Homepage](https://github.com/adhi729/test-app/blob/master/src/images/New%20Homepage.png)
+And Corresponding Responsive layout.
+![New Mobile Homepage](https://github.com/adhi729/test-app/blob/master/src/images/New%20Mobile%20Homepage.png)
 
-<br />
+
+This react application should be upgraded into a **multistep form submit**.
+The userflow of the application can be seen [here](https://xd.adobe.com/view/95b0322f-6582-468b-aebe-4522c550fa37-c0e3/).
 
 
 ### Task 1: Update Patient Registration Form Component `<Pad />`
