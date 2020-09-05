@@ -12,7 +12,8 @@ The following text judges the submission based on their
 ## Task 1: Update Patient Registration Form
 
 The currently existing UI looks like below.
-![alt text](/src/images/R logo.png)
+
+![alt text](https://github.com/adhi729/test-app/blob/master/src/images/Current%20Homepage.png)
 
 ## Task 2: Multistep Form Methods
 
