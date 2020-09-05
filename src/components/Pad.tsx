@@ -24,7 +24,7 @@ export default class Pad extends React.Component<PadProps, PadState> {
             alert("Mistakes were made!")
         }
         else{
-            let URL:string = (process.env.NODE_ENV == 'production')? "" : ""
+            let URL:string = (process.env.NODE_ENV == 'production')? "  " : ""
 
             //handle form
 

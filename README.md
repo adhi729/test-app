@@ -3,7 +3,7 @@
 This assignment is meant to assess the basic concepts of React like development of reusable components components and implementing them following well-known React.js workflows (such as Flux or Redux) and optimizing components for maximum performance across a vast array of web-capable devices and browsers.
 
 You'll be given an existing react application. 
-The Assignment reqires you to understand the code and Fill in the blanks.
+This Assignment reqires you to understand the `starter code` and build on it.
 Have a look at `/components/Pad.tsx: 15L`. This will be, most of what you'll be doing.
 
     submitForm = (event: any) => {
@@ -11,11 +11,10 @@ Have a look at `/components/Pad.tsx: 15L`. This will be, most of what you'll be 
             alert("Mistakes were made!")
         }
         else{
-            let URL:string = (process.env.NODE_ENV == 'production')? "" : ""
+            let URL:string = (process.env.NODE_ENV == 'production')? " URL given in starter code " : ""
 
             //handle form
-
-
+            // Extend with your solution
 
 
             alert( "form submitted!")
@@ -25,8 +24,8 @@ Have a look at `/components/Pad.tsx: 15L`. This will be, most of what you'll be 
 
 ## Problem Statement
 
-The application  collects data for patient registration. The `starter code` contains the implementation of a similar function but on a basic version.
-The problem statement of the assignment is to build this into a **multistep form submit**. This involves submitting data to an external API, wait for a callback,and save data from response into the browser.
+The created React application collects data for patient registration. The `starter code` contains the implementation of a similar functionality but a basic version.
+The problem statement of this assignment is to build on this `starter code`, into a **multistep form submit**. This involves submitting data to an external API, wait for a callback,and save data from response into the browser.
 
 `From` The currently existing UI ( `starter code` ) looks like below.
 
@@ -37,10 +36,10 @@ The problem statement of the assignment is to build this into a **multistep form
 ![New Homepage](https://github.com/adhi729/test-app/blob/master/src/images/New%20Homepage.png)
 
 The following Assignment judges the submission based on their ability to
-+ [ ] Handle form data 
++ [ ] Attain high fidelity of the developed application to design.
++ [ ] Handle form data.
 + [ ] Implement re-usable components
-+ [ ] Manage states and props of components
-+ [ ] Fidelity of the developed application to the design.
++ [ ] Efficiently manage states and props of components
 + [ ] Follow coding conventions
 
 ### Task Breakup
@@ -74,13 +73,13 @@ And Corresponding Responsive layout.
 #### Task 3: Multistep Form Methods
 
 Figure out how you communicate with components.
-+ Input fields must be able send data to its parent.
++ Input fields must be able send data to their parent.
 + Data from the input fields should be shown in the result screen. Plan Accordingly.
-+ Follow directory structure and naming conventions.
++ Follow naming conventions.
 
 ![new Homepage Dropdown](https://github.com/adhi729/test-app/blob/master/src/images/New%20Homepage%20Dropdown.png)
 
-Upon clicking `Paediatrician`, the following form fields to be rendered.
+Upon clicking `Paediatrician`, the following form fields needs to be rendered.
 
 ![new Paediatrician Page](https://github.com/adhi729/test-app/blob/master/src/images/New%20Paediatrician%20Page.png)
 
@@ -88,7 +87,7 @@ And Corresponding Responsive layout.
 
 ![New Mobile Paediatrician Page](https://github.com/adhi729/test-app/blob/master/src/images/New%20Mobile%20Paediatrician%20Page.png)
 
-And upon clicking `Physician`,
+And upon clicking `Physician`, a different set of forms fields needs to be rendered.
 
 ![new Physician Page](https://github.com/adhi729/test-app/blob/master/src/images/New%20Physician%20Page.png)
 
