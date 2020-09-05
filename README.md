@@ -6,11 +6,14 @@ The application right now collects data patient registration. This needs to be u
 
 
 ![New Homepage](https://github.com/adhi729/test-app/blob/master/src/images/New%20Homepage.png)
+
 And Corresponding Responsive layout.
+
 ![New Mobile Homepage](https://github.com/adhi729/test-app/blob/master/src/images/New%20Mobile%20Homepage.png)
 
 
 This react application should be upgraded into a **multistep form submit**.
+
 The userflow of the application can be seen [here](https://xd.adobe.com/view/95b0322f-6582-468b-aebe-4522c550fa37-c0e3/).
 
 
@@ -23,11 +26,15 @@ Running `npm start` should start `localhost:3000` with the following page.
 
 ![current Homepage](https://github.com/adhi729/test-app/blob/master/src/images/Current%20Homepage.png)
 
+Place your code in ` /components/Pad.tsx:48L` 
+
 ### Task 2: Input Component `<InputFieldComponent />`
 
-Use of common theme functional components for input. 
+Construct a Common theme, functional components for all inputs. 
 
 ![new Homepage](https://github.com/adhi729/test-app/blob/master/src/images/New%20Homepage.png)
+
+![New Mobile Homepage](https://github.com/adhi729/test-app/blob/master/src/images/New%20Mobile%20Homepage.png)
 
 
 ### Task 3: Multistep Form Methods
@@ -41,6 +48,8 @@ Figure out how you communicate with components.
 Upon clicking `Paediatrician`, the following form fields to be rendered.
 
 ![new Paediatrician Page](https://github.com/adhi729/test-app/blob/master/src/images/New%20Paediatrician%20Page.png)
+
+![New Mobile Paediatrician Page](https://github.com/adhi729/test-app/blob/master/src/images/New%20Mobile%20Paediatrician%20Page.png)
 
 And upon clicking `Physician`,
 
@@ -66,6 +75,9 @@ This results in a callback with a random `tokenNumber: number` which should be s
 
     
 ![new Paediatrician  Result](https://github.com/adhi729/test-app/blob/master/src/images/New%20Paediatrician%20Result.png)
+
+
+![New Mobile Paediatrician Result](https://github.com/adhi729/test-app/blob/master/src/images/New%20Mobile%20Paediatrician%20Result.png)
 
 Note: submit JSON have different compositions
 
