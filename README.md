@@ -10,11 +10,10 @@ The userflow of the application can be seen [here](https://xd.adobe.com/view/95b
 
 ### Task 1: Update Patient Registration Form Component `<Pad>`
 
-All the necessary data to start with this project already exists. Please have a look at current implementation of the form.
+All the necessary data to get started with this project already exists. Please have a look at current implementation of the  Registration form.
 
 Running `npm start` should start `localhost:3000` with the following page.
 
-<br />
 
 ![current Homepage](https://github.com/adhi729/test-app/blob/master/src/images/Current%20Homepage.png)
 
