@@ -1,7 +1,6 @@
 # Prescribe Interview Assignment
 
-A few lines about the interview process and about this assignment.
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+This assignment is meant to assess the basic concepts of React like development of reusable components components and implementing them following well-known React.js workflows (such as Flux or Redux) and optimizing components for maximum performance across a vast array of web-capable devices and browsers.
 
 You'll be given an existing react application. 
 The Assignment reqires you to understand the code and Fill in the blanks.
