@@ -3,27 +3,54 @@
 A few lines about the interview process and about this assignment.
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
 
+You'll be given an existing react application. 
+The Assignment reqires you to understand the code and Fill in the blanks.
+Have a look at `/components/Pad.tsx: 15L`
+
+    validateForm = (event: any) => {
+        // validate your form here
+        
+
+
+        return true
+    }
+    submitForm = (event: any) => {
+        if(this.validateForm(event)){
+            alert("Mistakes were made!")
+        }
+        else{
+            let URL:string = (process.env.NODE_ENV == 'production')? "" : ""
+
+            //handle form
+
+
+
+
+            alert( "form submitted!")
+        }
+    }
+
+
 ## Problem Statement
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
 
-The currently existing UI looks like below.
+The application  collects data for patient registration. The start code contains the implementation of a similar function but on a basic version.
+The problem statement of the assignment is to build this into a **multistep form submit**. This involves submitting data to an external API and wait for a callback, save data from response in the browser.
+
+`From` The currently existing UI ( `starter code` ) looks like below.
 
 ![current Homepage](https://github.com/adhi729/test-app/blob/master/src/images/Current%20Homepage.png)
 
-The application right now collects data for dummy patient registration. This needs to be upgraded to collect data across different categories available i.e, upgraded into a **multistep form submit**.
+`To` This needs to be upgraded to collect data across different consultancy categories available.
 
 ![New Homepage](https://github.com/adhi729/test-app/blob/master/src/images/New%20Homepage.png)
 
-
-
-
 The following Assignment judges the submission based on their ability to
-+ Handle form data 
-+ Implement re-usable components
-+ Manage states and props of components
-+ Fidelity of the developed application
-+ Follow coding conventions
++ [x] Handle form data 
++ [x] Implement re-usable components
++ [x] Manage states and props of components
++ [x] Fidelity of the developed application
++ [x] Follow coding conventions
 
 ## Task Breakup
 
