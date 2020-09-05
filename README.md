@@ -16,6 +16,15 @@ This react application should be upgraded into a **multistep form submit**.
 
 The userflow of the application can be seen [here](https://xd.adobe.com/view/95b0322f-6582-468b-aebe-4522c550fa37-c0e3/).
 
+<br />
+
+The following Assignment judges the submission based on their ability to
++ Handle form data 
++ Implement re-usable components
++ Manage states and props of components
++ Fidelity of the developed application
++ Coding 
+
 
 ### Task 1: Update Patient Registration Form Component `<Pad />`
 
@@ -30,9 +39,11 @@ Place your code in ` /components/Pad.tsx:48L`
 
 ### Task 2: Input Component `<InputFieldComponent />`
 
-Construct a Common theme, functional components for all inputs. 
+Construct a Common theme, functional components for all inputs in `/components/`
 
 ![new Homepage](https://github.com/adhi729/test-app/blob/master/src/images/New%20Homepage.png)
+
+And Corresponding Responsive layout.
 
 ![New Mobile Homepage](https://github.com/adhi729/test-app/blob/master/src/images/New%20Mobile%20Homepage.png)
 
@@ -42,12 +53,15 @@ Construct a Common theme, functional components for all inputs.
 Figure out how you communicate with components.
 + Input fields must be able send data to its parent.
 + Data from the input fields should be shown in the result screen. Plan Accordingly.
++ Follow directory structure and naming conventions.
 
 ![new Homepage Dropdown](https://github.com/adhi729/test-app/blob/master/src/images/New%20Homepage%20Dropdown.png)
 
 Upon clicking `Paediatrician`, the following form fields to be rendered.
 
 ![new Paediatrician Page](https://github.com/adhi729/test-app/blob/master/src/images/New%20Paediatrician%20Page.png)
+
+And Corresponding Responsive layout.
 
 ![New Mobile Paediatrician Page](https://github.com/adhi729/test-app/blob/master/src/images/New%20Mobile%20Paediatrician%20Page.png)
 
@@ -60,9 +74,9 @@ And upon clicking `Physician`,
 #### Form Validation and submit JSON
 
 Required input fields and input validation.
-<br />
-On submitting form, form data should be validated and send JSON stringified data to the URL used in the current application.
-This results in a callback with a random `tokenNumber: number` which should be stored in local storage for retrieving session.
+
+On `submit` form, form data should be validated and should send JSON stringified data to the URL used in the current application.
+This results in a callback with a random `tokenNumber: number` which should be stored in local storage for retrieving session after browser refresh.
 
     interface PaediatricianRequestJSON 
     {
@@ -76,6 +90,7 @@ This results in a callback with a random `tokenNumber: number` which should be s
     
 ![new Paediatrician  Result](https://github.com/adhi729/test-app/blob/master/src/images/New%20Paediatrician%20Result.png)
 
+And Corresponding Responsive layout.
 
 ![New Mobile Paediatrician Result](https://github.com/adhi729/test-app/blob/master/src/images/New%20Mobile%20Paediatrician%20Result.png)
 
@@ -92,23 +107,6 @@ Note: submit JSON have different compositions
         
 
 ![new Physician  Result](https://github.com/adhi729/test-app/blob/master/src/images/New%20Physician%20Result.png)
-
-
-
-<br />
-
-The following text judges the submission based on their ability to
-+ adw
-+ awdwd
-+ adwdwawdd
-+ adwdadw
-+ awdadw
-
-<br />
-
-
-
-
 
 
 
