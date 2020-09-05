@@ -1,38 +1,72 @@
 .App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
+  /* text-align: center; */
+  /* background-color: #d9e0e8; */
   min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.App-Header {
+  min-height: 100vh;
+  width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
+  color: black;
+  background:#F5F5F5;
+}
+.PatientApplicationForm{
+  position: absolute;
+  width: 960px;
+  top: 20%;
+  height:80%;
+  z-index: 10px;
+  background-color: white;
+  color: black;
+  padding-left: 5%;
+  padding-right: 5%;
+  font-size: 14px;
+  box-shadow: 0px 10px 20px #888888;
+  display: flex;
+  flex-direction: column;
+}
+
+.PatientApplicationForm .logoHospital{
+  width: 100px;
+  margin-top: 10%;
+  margin-bottom: 10%;
+}
+
+.inputFieds{
+  position: relative;
+  border: solid 1px #068CF3;
+  color: black;
+  width: 300px;
+  margin-bottom: 30px;
+}
+
+ .inputFieds input{
+  width: 100%;
+  border: none;
+  color: lightgrey;
+  font-style: italic;
+}
+.inputFieds textarea{
+  width: 100%;
+  border: none;
+  color: lightgrey;
+  font-style: italic;
+}
+.inputFieds input #placeholder{
+  color: #888888;
+}
+.submitButton{
+  padding: 15px;
+  font-size: medium;
+  margin-top: 50px;
+  border: none;
+  background-color: #068CF3;
   color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
 }
