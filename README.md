@@ -9,23 +9,22 @@ The userflow of the application can be seen [here](https://xd.adobe.com/view/95b
 <br />
 
 
-## Task 1: Update Patient Registration Form Component `<Pad>`
+### Task 1: Update Patient Registration Form Component `<Pad>`
 
 All the necessary data to start with this project already exists. Please have a look at current implementation of the form.
 
-<br />
 Running `npm start` should start localhost:3000 with the following page.
-
+<br />
 ![current Homepage](https://github.com/adhi729/test-app/blob/master/src/images/Current%20Homepage.png)
 
-## Task 2: Input Component
+### Task 2: Input Component
 
 Use of common theme functional components for input. 
 
 ![new Homepage](https://github.com/adhi729/test-app/blob/master/src/images/New%20Homepage.png)
 
 
-## Task 3: Multistep Form Methods
+### Task 3: Multistep Form Methods
 
 Figure out how you communicate with components.
 + Input fields must be able send data to its parent.
@@ -33,19 +32,17 @@ Figure out how you communicate with components.
 
 ![new Homepage Dropdown](https://github.com/adhi729/test-app/blob/master/src/images/New%20Homepage%20Dropdown.png)
 
-Upon clicking Paediatrician, the following form fields to be rendered.
+Upon clicking `Paediatrician`, the following form fields to be rendered.
 
 ![new Paediatrician Page](https://github.com/adhi729/test-app/blob/master/src/images/New%20Paediatrician%20Page.png)
 
-And upon clicking Physician,
+And upon clicking `Physician`,
 
 ![new Physician Page](https://github.com/adhi729/test-app/blob/master/src/images/New%20Physician%20Page.png)
 
-which results in  the final Result page render as,
+### Task 4: Form handling
 
-## Task 4: Form handling
-
-### Form Validation and submit JSON
+#### Form Validation and submit JSON
 
 Required input fields and input validation.
 <br />
@@ -64,6 +61,8 @@ This results in a callback with a random `tokenNumber: number` which should be s
     
 ![new Paediatrician  Result](https://github.com/adhi729/test-app/blob/master/src/images/New%20Paediatrician%20Result.png)
 
+Note: submit JSON have different compositions
+
     interface PhysicianRequestJSON 
         {
             consultancy: number,
@@ -73,9 +72,13 @@ This results in a callback with a random `tokenNumber: number` which should be s
             role: number
         }
         
+
 ![new Physician  Result](https://github.com/adhi729/test-app/blob/master/src/images/New%20Physician%20Result.png)
 
+
+
 <br />
+
 The following text judges the submission based on their ability to
 + adw
 + awdwd
