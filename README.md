@@ -4,7 +4,6 @@ The currently existing UI looks like below.
 
 
 This react application should be upgraded into a multistep form submit.
-
 The userflow of the application can be seen [here](https://xd.adobe.com/view/95b0322f-6582-468b-aebe-4522c550fa37-c0e3/).
 <br />
 
@@ -13,8 +12,10 @@ The userflow of the application can be seen [here](https://xd.adobe.com/view/95b
 
 All the necessary data to start with this project already exists. Please have a look at current implementation of the form.
 
-Running `npm start` should start localhost:3000 with the following page.
+Running `npm start` should start `localhost:3000` with the following page.
+
 <br />
+
 ![current Homepage](https://github.com/adhi729/test-app/blob/master/src/images/Current%20Homepage.png)
 
 ### Task 2: Input Component
