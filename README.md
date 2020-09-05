@@ -6,6 +6,10 @@ The currently existing UI looks like below.
 
 This react application should be upgraded into a multistep form submit.
 The userflow of the application can be seen [here](https://xd.adobe.com/view/95b0322f-6582-468b-aebe-4522c550fa37-c0e3/).
+
+![New Mobile Homepage](https://github.com/adhi729/test-app/blob/master/src/images/New%20Mobile%20Homepage.png)
+![New Homepage](https://github.com/adhi729/test-app/blob/master/src/images/New%20Homepage.png)
+
 <br />
 
 
