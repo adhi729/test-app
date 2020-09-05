@@ -13,10 +13,6 @@ The application right now collects data for dummy patient registration. This nee
 
 
 
-**The userflow of the application can be seen [here](https://xd.adobe.com/view/95b0322f-6582-468b-aebe-4522c550fa37-c0e3/).**
-
-
-
 The following Assignment judges the submission based on their ability to
 + Handle form data 
 + Implement re-usable components
@@ -24,6 +20,10 @@ The following Assignment judges the submission based on their ability to
 + Fidelity of the developed application
 + Follow coding conventions
 
+
+**The userflow of the application can be seen [here](https://xd.adobe.com/view/95b0322f-6582-468b-aebe-4522c550fa37-c0e3/).**
+
+The following is a brief task summary.
 
 ### Task 1: Update Patient Registration Form Component `<Pad />`
 
@@ -155,3 +155,8 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
 To learn React, check out the [React documentation](https://reactjs.org/).
+
+
+## For Further Clarification
+
+Contact : 
