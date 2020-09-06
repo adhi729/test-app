@@ -1,6 +1,6 @@
 ## Introduction
 
-This assignment is meant to assess the basic concepts of React like development of reusable components components and implementing them following well-known React.js workflows (such as Flux or Redux) and optimizing components for maximum performance across a vast array of web-capable devices and browsers.
+This assignment is meant to assess the basic concepts of React like development of reusable components and implementing them following well-known React.js workflows (such as Flux or Redux) and optimizing components for maximum performance across a vast array of web-capable devices and browsers.
 
 You'll be given an existing react application. 
 This Assignment reqires you to understand the `starter code` and build on it.
