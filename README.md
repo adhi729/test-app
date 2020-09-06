@@ -1,5 +1,3 @@
-# Prescribe Interview Assignment
-
 ## Introduction
 
 This assignment is meant to assess the basic concepts of React like development of reusable components components and implementing them following well-known React.js workflows (such as Flux or Redux) and optimizing components for maximum performance across a vast array of web-capable devices and browsers.
@@ -100,7 +98,10 @@ And upon clicking `Physician`, a different set of forms fields needs to be rende
 Required input fields and input validation.
 
 On `submit` form, form data should be validated and should send JSON stringified data to the URL used in the current application.
-This results in a callback with a random `tokenNumber: number` which should be stored in local storage for retrieving session after browser refresh.
+All form fields are compulsory.
+This results in a callback with a `tokenNumber: number` which should be stored in local storage for retrieving session after browser refresh.
+
+`consultancy: number` is index of consultancy services dropdown.
 
     interface PaediatricianRequestJSON 
     {
@@ -125,8 +126,7 @@ Note: submit JSON have different compositions
             consultancy: number,
             patientName: string,
             age: number,
-            parentName: string,
-            role: number
+            description: string,
         }
         
 

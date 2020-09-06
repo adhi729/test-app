@@ -24,9 +24,10 @@ export default class Pad extends React.Component<PadProps, PadState> {
             alert("Mistakes were made!")
         }
         else{
-            let URL:string = (process.env.NODE_ENV == 'production')? "  " : ""
-
-            //handle form
+            let URL:string = (process.env.NODE_ENV !== 'production')? "  " : "https://script.google.com/macros/s/AKfycbxZpsmMPTPgZb5oR_AQ423crtShqgVZ10QInsqwoM4D95BTq_8/exec"
+            let requestParameters = { "Content-Type" : "application/x-www-form-urlencoded", }
+            
+            //handle form , POST content type as URLencoded form data
 
 
 
